@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='UTF-8'>
+    <title>Plugin #02</title>
+    <link rel='stylesheet' href='components/css/temporizador.css'>
+    <script src='components/js/jquery.js'></script>
+</head>
+
+<body>
+    <h1>Plugin #02 - Temporizador</h1>
+    <div></div>
+    <script src="components/js/temporizador.js"></script>
+    <script>
+        
+        $('div').temporizador({
+            mensagem: 'Em breve um novo site pra você!',
+            horario: '23:59:59'
+        }).hide().fadeIn(1000)
+
+    </script>
+</body>
